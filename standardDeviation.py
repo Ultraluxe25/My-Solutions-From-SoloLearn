@@ -4,7 +4,7 @@
 players = [180, 172, 178, 185, 190, 195, 192, 200, 210, 190]
 
 
-def find_standart_deviation(data):
+def find_standard_deviation(data):
     total = sum(data)
     number = len(data)
     mean = total / number
@@ -23,4 +23,4 @@ def find_standart_deviation(data):
     return counter
 
 
-print(find_standart_deviation(players))
+print(find_standard_deviation(players))
