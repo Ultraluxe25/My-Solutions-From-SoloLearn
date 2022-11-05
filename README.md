@@ -1,1 +1,1 @@
-### In this repository I show my solutions for interesting problems from SoloLearn courses
+### In this repository I show my solutions for interesting problems from Solo Learn courses
