@@ -1,0 +1,19 @@
+<svg width="1000" height="250">
+    <rect width="150" height="150" fill="orange">
+        <animate attributeName="x" from="0" to="300"
+      dur="3s" fill="freeze" repeatCount="indefinite"/> 
+    </rect>
+</svg>
+
+<!--
+attributeName: Specifies which attribute will be affected by the animation
+from: Specifies the starting value of the attribute
+to: Specifies the ending value of the attribute
+dur: Specifies how long the animation runs (duration)
+fill: Specifies whether or not the attribute's value should return to its initial value
+ when the animation is finished (Values: "remove" resets the value; "freeze" keeps the “to value”)
+repeatCount: Specifies the repeat count of the animation
+
+In the example above, the rectangle changes its x attribute from 0 to 300 in 3 seconds.
+To repeat the animation indefinitely, use the value "indefinite" for the repeatCount attribute.
+-->
